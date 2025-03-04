@@ -4,15 +4,15 @@ This project is a Google Apps Script that interacts with Telegram to manage expe
 
 ## Files
 
-### 1. `Code.gs`
+### 1. [`Code.gs`](./Code.gs)
 This file contains the main logic for handling requests and interacting with the Google Sheet.
 
 
-### 2. `TelegramBot.gs`
+### 2. [`TelegramBot.gs`](./TelegramBot.gs)
 This file contains functions to interact with the Telegram API, including sending messages and photos, setting webhooks, and fetching updates.
 
 
-### 3. `ChatGemini.gs`
+### 3. [`ChatGemini.gs`](./ChatGemini.gs)
 This file contains the function to interact with the Gemini API to classify and comment on expenses.
 
 
