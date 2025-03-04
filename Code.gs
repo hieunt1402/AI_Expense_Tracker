@@ -65,7 +65,7 @@ const doPost = (request) => {
   } else {
     // Process the text message for adding an expense
     const askGemini = ChatGemini(text).split("|");
-    if (askGemini[0] === "{Null}") {
+    if (askGemini[0].trim() === "{Null}") {
       sendMessage(askGemini[1]);
     } else {
       addExpense(askGemini[0], askGemini[1], askGemini[2], text);
